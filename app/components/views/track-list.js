@@ -13,7 +13,7 @@ export default function(props) {
 
   if(props.tracks && props.tracks.tracks){
     playlistHeader =(
-      <Col xs={6} sm={12} md={9} className="track-results">
+      <Col  sm={12} md={9} className="track-results">
       	<Row>
       	<Col className="track-image" md={2}  >
       		<img  className= "img-rounded img" src={props.tracks.artwork_url}  ></img>
@@ -75,7 +75,7 @@ export default function(props) {
           {playlistHeader}
         </Row>
         <Row className="show-grid">
-          <Col xs={6} sm={12} md={9} className="search-results  track-results-background">
+          <Col  sm={12} md={9} className="search-results  track-results-background">
             {tracks}
           </Col>
         </Row>

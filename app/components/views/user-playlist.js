@@ -12,7 +12,7 @@ export default function(props) {
   var userListHeader="";
   if(props.currentUser){
     userListHeader=(
-      <Col xs={6} sm={12} md={9} className="track-results">
+      <Col  sm={12} md={9} className="track-results">
         <Row>
         <Col className="track-image  " md={2}  >
           <img  className= "img-rounded img" src={props.currentUser.avatar_url}  ></img>
@@ -74,7 +74,7 @@ export default function(props) {
           {userListHeader}
         </Row>
         <Row className="">
-          <Col xs={6} sm={12} md={9} className="search-results mydata-list play-list ">
+          <Col  sm={12} md={9} className="search-results mydata-list play-list ">
             {playlists}
           </Col>
         </Row>

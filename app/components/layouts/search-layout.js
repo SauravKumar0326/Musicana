@@ -20,12 +20,12 @@ export default function(props) {
     <Header></Header>
       <Grid>
         <Row className="show-grid">
-          <Col xs={6} sm={12} md={9}>
+          <Col  sm={12} md={9}>
             <SearchFormContainer searchType={props.searchType} />
           </Col>
         </Row>
         <Row className="show-grid">
-        <Col xs={6} sm={12} md={9} className="search-results">
+        <Col  sm={12} md={9} className="search-results">
           {props.children}
         </Col>
         </Row>
